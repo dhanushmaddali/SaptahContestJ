@@ -1,0 +1,7 @@
+T=int(input("Enter an integer:")) #T is the number of test cases where 1<=T<=100
+int X>=1
+int Y<=100
+R=int(input(X,Y,X," ",Y))
+R=X+Y
+for i=T:
+    print(R)
