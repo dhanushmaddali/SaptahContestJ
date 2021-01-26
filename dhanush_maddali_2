@@ -1,0 +1,9 @@
+T=int(input()) #T is the number of cases where 1<=T<=1000
+for i in range(T):
+    A,B,C=float(input()).split() #1<=A,B,C<=1000000 
+    if A<B and A>C:
+        print(A)
+    elif B<A and B>C:
+        print(B)
+    else:
+        print(C)
